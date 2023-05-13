@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+nav{
+  background: crimson;
+  height: 60px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+ul{
+  display: flex;
+}
+nav ul .nav-link{
+  color: white;
+  padding-right: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+nav ul .nav-link:hover,nav ul .nav-link.active{
+  color: green;
+}
